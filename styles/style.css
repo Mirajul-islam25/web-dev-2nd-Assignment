@@ -16,10 +16,9 @@
 
 #span1 {
   font-family: "miama", sans-serif;
-  font-weight: 400;
-  font-size: 45px;
-}
-
+  font-weight: 700;
+  font-size: 55px;
+} 
 .title {
   font-size: 40px;
   font-weight: 700;
@@ -308,92 +307,107 @@ main {
   border: none;
 }
 
-.healthy-bg {
-  background: rgb(23, 23, 23);
-}
+/* fourth section */
 
-.healthy {
-  margin: 50px 15%;
-  padding: 50px 0px;
+.fourth-section {
+  background-color: #101010;
+  padding-bottom: 20px;
 }
-
-.healthy1 {
-  display: flex;
-  text-align: center;
-  margin: 40px 0px;
-  align-items: center;
+.fourth-heading {
+  font-size: 40px;
+  font-weight: 600;
 }
-
-.meal-image {
-  width: 50%;
-  border-radius: 8px;
-  box-shadow: 1px 2px 1px 2px #562800, 2px 1px 2px 2px rgb(230, 83, 60);
+.fourth-content {
+  padding: 30px 0px 0px 120px;
+  margin-bottom: 20px;
 }
-
-.healthy-title-main {
-  margin: 20px 20%;
-  font-size: 35px;
-}
-.healthy-desc-main {
-  margin: 20px 20%;
-  font-size: 18px;
+.fourth-description {
   color: #989898;
 }
-
-#healthy {
-  color: rgb(230, 83, 60);
+.fourth-container {
+  border: 1px solid #101010;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 100px;
+  margin-bottom: 50px;
 }
 
-.healthy-title-main:hover {
-  text-shadow: 1px 1px 1px rgb(255, 202, 194);
-  margin: 20px 20%;
-}
-.healthy-desc-main:hover {
-  text-shadow: 1px 1px 1px rgb(255, 255, 255);
-  margin: 20px 20%;
-}
-
-.healthy2 {
+.fourth-images {
   display: grid;
-  grid-template-columns: repeat(3, 3fr);
-  gap: 30px;
-  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  height: 200px;
+  border-radius: none;
+  padding-bottom: 240px;
 }
 
-.healthy-box {
-  background-color: rgb(54, 54, 54);
-  padding: 0px 0px 20px 0px;
-  color: black;
-  border-radius: 8px;
-  color: white;
+.exercise {
+  border-radius: none;
+  position: relative;
 }
-.healthy-box:hover {
-  box-shadow: 1px 2px 1px 2px rgb(88, 88, 88),
-    2px 1px 2px 2px rgb(115, 115, 115);
-  background-color: rgb(200, 200, 200);
-  padding: 0px 0px 20px 0px;
-  color: black;
-  border-radius: 8px;
+.exercise:hover {
+  transition: all 0.2s ease;
+  transform: scale(1.07);
+  cursor: pointer;
+  box-shadow: 0 0 15px 5px #a0a0a0;
 }
 
-.healthy-image {
+.exercise-img {
+  width: 300px;
+  height: 200px;
+}
+
+.exercise1 {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 240px;
-  border-radius: 8px;
+  height: 100%;
+  background-color: #06ffd280;
 }
 
-.healthy-title {
-  padding: 0px 30px;
-  margin: 20px 0px 0px 0px;
-  font-size: 25px;
+.exercise2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ff00004d;
 }
 
-.healthy-desc {
-  padding: 0px 30px 0px 30px;
-  font-size: 14px;
+.exercise3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000080;
 }
-.healthy-desc:hover {
-  padding: 0px 30px 0px 30px;
+
+.exercise4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #00000080;
+}
+
+.exercise5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #42ff004d;
+}
+
+.exercise6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #0047ff4d;
 }
 
 .before-bmi-title {
@@ -466,16 +480,17 @@ th {
 }
 
 .input-content {
-  width: 90%;
-  height: 38px;
+  width: 98%;
+  height: 20px;
   border-radius: 8px;
   background-color: rgb(74, 74, 74);
   color: rgb(255, 255, 255);
   border: 0.1px solid gray;
 }
 .input-content1 {
-  width: 92%;
-  height: 38px;
+  width: 100%;
+  height: 27px;
+  margin-top: -20px;
   border-radius: 8px;
   background-color: rgb(74, 74, 74);
   color: #989898;
@@ -483,7 +498,7 @@ th {
   padding-right: 20px;
 }
 .input-content2 {
-  width: 96%;
+  width: 100%;
   height: 38px;
   border-radius: 8px;
   background-color: rgb(74, 74, 74);
@@ -519,43 +534,74 @@ th {
   color: #989898;
 }
 
-.team {
-  margin: 40px 15%;
-  padding: 40px 0px;
-  padding-left: 50px;
-  border-radius: 8px;
-  background-color: rgb(57, 57, 57);
-  display: grid;
-  grid-template-columns: repeat(3, 3fr);
-  justify-content: center;
-  gap: 0px;
+.last-description {
+  background-color: #101010;
+  padding-bottom: 50px;
 }
-
-.team-card {
+.trainer {
+  height: 300px;
+  width: 300px;
+}
+.images-container {
   position: relative;
+  border: 1px solid #101010;
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 20px 30px;
+  margin: 0px 150px;
+  border-radius: 10px;
 }
 
-.team-image {
-  width: 280px;
-  height: 260px;
-  border-radius: 8px;
+.last-images-first {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
 }
 
-.card-text {
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 2px #000000, 2px 2px 2px #000000;
-  transform: translate(-60px);
-  margin: 0px;
+.last-images-second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 300px;
+  background-size: cover;
+  background-position: center;
 }
 
-.card-title {
-  margin: 0px 10px;
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
 }
 
-.card-sub-title {
-  margin: 0px 10px;
-  color: #989898;
+.last-images > div {
+  flex: 1;
 }
+
+.text {
+  position: absolute;
+  bottom: 10%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.last-span {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  opacity: 0.6;
+}
+
+.last-container {
+  position: relative;
+  width: 100%;
+}
+
 
 footer {
   color: white;
@@ -636,7 +682,6 @@ footer {
     align-items: initial;
     margin-top: 3px;
   }
-  .healthy1,
   .bmi,
   .run,
   .habit-box,
@@ -722,7 +767,6 @@ footer {
 
   .run-content {
     width: 94%;
-
     padding: 20px 5%;
   }
 
@@ -733,37 +777,18 @@ footer {
     width: 95%;
     padding: 0px 10px 20px;
   }
-
-  .healthy {
-    margin: 0px;
+  .fourth-images {
+    padding-right: -20px;
+    gap: 10px;
+    height: 1050px;
+    grid-template-columns: repeat(1, 1fr);
   }
-
-  .meal-image {
-    width: 80%;
+  .exercise {
+    padding-right: -100px;
   }
-
-  .healthy-title-main {
-    margin: 40px 10%;
+  .fourth-content {
+   padding-left: 30px;
   }
-
-  .healthy-desc-main {
-    margin: 0px 10%;
-  }
-  .healthy-title-main:hover {
-    margin: 40px 10%;
-  }
-
-  .healthy-desc-main:hover {
-    margin: 0px 10%;
-  }
-
-  .healthy2 {
-    margin: 20px 10%;
-  }
-  /* .healthy-box {
-    padding: auto;
-  } */
-
   table {
     padding-right: 0px;
   }
@@ -776,7 +801,16 @@ footer {
     padding: 0px;
     width: 70%;
   }
-
+  .input-content1 {
+    width: 100%;
+    height: -10px;
+    margin-top: -2px;
+    padding: -20px 0px;
+  }
+  .input-content {
+    width: 90%;
+    height: 35px;
+  }
   .chart-title {
     margin: 0px;
     padding: 0px;
@@ -796,17 +830,17 @@ footer {
     height: 40px;
   }
 
-  .team {
-    margin: 10px 10%;
-
-    padding: 0px;
+  .last-images-first {
+    grid-template-columns: repeat(1, 1fr);
+    height: 950px;
+    gap: 15px;
   }
-
-  .team-image {
-    width: 90%;
-    height: 260px;
-    margin: 10px 10px 0px 10px;
-    padding: 0px;
+  
+  .last-images-second {
+    grid-template-columns: repeat(1, 1fr);
+    height: 920px;
+    gap: 15px;
+    
   }
 
   .card-text {
@@ -815,7 +849,6 @@ footer {
   .footer-div1 {
     margin-left: 18%;
   }
-  .healthy2,
   .nav-ul-menu,
   .footer,
   .team {
